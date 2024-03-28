@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="uwpharjoitukset3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView x:ConnectionId='2' x:Name="NavView" 
+					                                          
+					                                       
+					IsSettingsVisible="False"
+					IsBackEnabled="{Binding ElementName=ContentFrame, Path=CanGoBack}">
+
+            <NavigationView.MenuItems>
+                <NavigationViewItemHeader Content="Harjoitukset" />
+                <NavigationViewItem Content="Harjoitus 3_1a"  Tag="harjoitus3_1a"/>
+                <NavigationViewItem Content="Harjoitus 3_1b"  Tag="harjoitus3_1b"/>
+                <NavigationViewItem Content="Harjoitus 3_3 tuulimittari"  Tag="harjoitus3_3_1"/>
+                <NavigationViewItem Content="Harjoitus 3_3 varjostus"  Tag="harjoitus3_3_2"/>
+                <NavigationViewItem Content="Harjoitus 3_3 animaatiotesti"  Tag="harjoitus3_3_3"/>
+               
+            </NavigationView.MenuItems>
+
+            <Frame x:ConnectionId='3' x:Name="ContentFrame" 
+                                                             />
+        
+            </NavigationView>
+    </Grid>
+</Page>
+

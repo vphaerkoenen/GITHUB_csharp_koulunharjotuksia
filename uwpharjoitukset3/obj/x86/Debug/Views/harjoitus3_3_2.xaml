@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="uwpharjoitukset3.Views.harjoitus3_3_2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:uwpharjoitukset3.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls">
+
+   
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <controls:DropShadowPanel x:ConnectionId='2'
+            Grid.Column="0"
+            HorizontalAlignment="Center"
+            Name="shadowPanel"
+            BlurRadius="4.0"
+            ShadowOpacity="0.80"
+            Color="Black">
+            
+            <Image x:ConnectionId='6' Width="400"
+                   Name="MyPicture" 
+                   Source="ms-appx:///Assets/tree0-5.png"
+                   Stretch="UniformToFill"/>
+        </controls:DropShadowPanel>
+
+        <RelativePanel Grid.Column="1" VerticalAlignment="Center" >
+            <TextBlock x:ConnectionId='3'
+            Name="textBlock"
+            FontSize="18"
+            FontWeight="Bold"
+            >Säädä varjostusta sliderillä</TextBlock>
+
+            <Slider x:ConnectionId='4' 
+            Name="slider"
+                                              
+            Width="200"
+            RelativePanel.Below="textBlock"
+            >
+            </Slider>
+
+            <TextBlock x:ConnectionId='5'
+                RelativePanel.Below="slider"
+                Name="timerText"
+                FontSize="23"
+                ></TextBlock>
+        </RelativePanel>
+    </Grid>
+   
+</Page>
+

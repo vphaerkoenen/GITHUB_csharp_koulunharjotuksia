@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Github\\GLOBAL_GITHUB_vphaerkoenen\\code_samples\\uuwpharjoitukset3\\uwpharjoitukset3\\uwpharjoitukset3.csproj": {}
+  },
+  "projects": {
+    "E:\\Github\\GLOBAL_GITHUB_vphaerkoenen\\code_samples\\uuwpharjoitukset3\\uwpharjoitukset3\\uwpharjoitukset3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Github\\GLOBAL_GITHUB_vphaerkoenen\\code_samples\\uuwpharjoitukset3\\uwpharjoitukset3\\uwpharjoitukset3.csproj",
+        "projectName": "uwpharjoitukset3",
+        "projectPath": "E:\\Github\\GLOBAL_GITHUB_vphaerkoenen\\code_samples\\uuwpharjoitukset3\\uwpharjoitukset3\\uwpharjoitukset3.csproj",
+        "packagesPath": "C:\\Users\\OMISTAJA.DESKTOP-7G1CCG4\\.nuget\\packages\\",
+        "outputPath": "E:\\Github\\GLOBAL_GITHUB_vphaerkoenen\\code_samples\\uuwpharjoitukset3\\uwpharjoitukset3\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "E:\\Visual Studio 2022\\components,tools,SDKs\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\OMISTAJA.DESKTOP-7G1CCG4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Animations": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Controls": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.ObjectModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
